@@ -5,6 +5,7 @@
 - Entender seu papel na computação em nuvem  
 - Identificar os principais tipos de virtualização  
 - Diferenciar máquinas virtuais e containers  
+- Conhecer técnicas e abordagens de virtualização  
 
 ---
 
@@ -151,7 +152,65 @@ Containers são ambientes leves que compartilham o sistema operacional do host.
 
 ---
 
-## 🌍 8. Exemplos Reais
+## ⚙️ 8. Técnicas de Virtualização
+
+A virtualização pode ser implementada por diferentes técnicas:
+
+### 🔹 Emulação
+- Simula completamente um hardware diferente  
+- Permite executar sistemas incompatíveis  
+- Baixo desempenho  
+
+---
+
+### 🔹 Virtualização Completa (Full Virtualization)
+- Não requer modificação do sistema operacional  
+- Hardware totalmente simulado  
+- Alta compatibilidade  
+
+---
+
+### 🔹 Paravirtualização
+- Sistema operacional adaptado para o hipervisor  
+- Comunicação direta com o hipervisor  
+- Melhor desempenho  
+
+---
+
+### 🔹 Virtualização Assistida por Hardware
+- Utiliza recursos do processador (Intel VT-x, AMD-V)  
+- Aumenta desempenho e eficiência  
+
+---
+
+## ⚖️ 9. Virtualização Total vs Paravirtualização
+
+### 🖥️ Virtualização Total
+- Hardware totalmente simulado  
+- Sistema operacional não precisa ser modificado  
+- Maior compatibilidade  
+
+---
+
+### ⚙️ Paravirtualização
+- Sistema operacional modificado  
+- Comunicação direta com o hipervisor  
+- Melhor desempenho  
+
+---
+
+### 📊 Comparação
+
+| Característica        | Virtualização Total | Paravirtualização |
+|----------------------|--------------------|------------------|
+| Modificação do SO    | Não                | Sim              |
+| Desempenho           | Médio              | Alto             |
+| Compatibilidade      | Alta               | Média            |
+| Complexidade         | Baixa              | Maior            |
+
+---
+
+## 🌍 10. Exemplos Reais
 
 ### ☁️ Amazon AWS
 - Usa virtualização para criar instâncias EC2  
@@ -164,7 +223,7 @@ Containers são ambientes leves que compartilham o sistema operacional do host.
 
 ---
 
-## ⚙️ 9. Benefícios da Virtualização
+## ⚙️ 11. Benefícios da Virtualização
 
 - Melhor aproveitamento de hardware  
 - Redução de custos  
@@ -174,7 +233,31 @@ Containers são ambientes leves que compartilham o sistema operacional do host.
 
 ---
 
-## ⚠️ 10. Desafios
+## ⚙️ 12. Recursos da Virtualização
+
+A virtualização oferece diversos recursos importantes:
+
+### 🔹 Provisionamento Dinâmico
+- Criação rápida de máquinas virtuais  
+
+### 🔹 Snapshots
+- Captura do estado de uma VM  
+
+### 🔹 Live Migration
+- Migração de VMs sem interrupção  
+
+### 🔹 Balanceamento de Carga
+- Distribuição eficiente de recursos  
+
+### 🔹 Isolamento
+- Separação segura entre ambientes  
+
+### 🔹 Escalabilidade
+- Ajuste de recursos conforme demanda  
+
+---
+
+## ⚠️ 13. Desafios
 
 - Complexidade de gestão  
 - Segurança  
@@ -183,7 +266,7 @@ Containers são ambientes leves que compartilham o sistema operacional do host.
 
 ---
 
-## 🔄 11. Virtualização e Computação em Nuvem
+## 🔄 14. Virtualização e Computação em Nuvem
 
 ➡️ Relação direta:
 
@@ -196,16 +279,17 @@ Sem virtualização:
 
 ---
 
-## 🔄 12. Síntese da Aula
+## 🔄 15. Síntese da Aula
 
 - Virtualização permite múltiplos ambientes em um único hardware  
 - Hipervisor é o componente central  
-- VMs e containers são as principais abordagens  
+- VMs e containers são abordagens principais  
+- Existem diferentes técnicas de virtualização  
 - É essencial para a computação em nuvem  
 
 ---
 
-## 📚 13. Referências
+## 📚 16. Referências
 
 ### Bibliografia Básica
 - CHEE, J. S. B.; JUNIOR, Franklin C.  

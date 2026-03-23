@@ -99,6 +99,23 @@ Ambientes distribuídos e dinâmicos.
 
 ---
 
+### 🏗️ 2.6 Sistemas Legados (Legacy)
+
+### 📌 Problema
+Muitas organizações ainda utilizam sistemas antigos (legados) que não foram projetados para ambientes em nuvem.
+
+### 🔧 Riscos
+- Dificuldade de migração para a nuvem  
+- Incompatibilidade com tecnologias modernas  
+- Alto custo de adaptação ou reescrita de sistemas  
+
+### 🎯 Impacto
+- Atraso na adoção da nuvem  
+- Limitação de inovação  
+- Dependência de sistemas obsoletos  
+
+---
+
 ## 🧩 3. Riscos Técnicos
 
 ---
